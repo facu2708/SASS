@@ -1,0 +1,14 @@
+@mixin redes{
+    background:$fondo;  
+    color: $white;    
+}
+
+.facebook:hover{
+    @include redes($Facebook);
+}
+.instagram:hover{
+    @include redes($Instagram);
+}
+.linkedin:hover{
+    @include redes($Linkedin);
+}

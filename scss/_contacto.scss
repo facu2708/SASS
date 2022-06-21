@@ -1,0 +1,56 @@
+.contenedor-contacto{
+    .formulario{
+        h2{
+            margin-left: $remleft;
+        }
+        .suConsulta{
+            margin-left: $remleft;
+            margin-top: 2rem;
+        }
+        .ubicacion{
+            margin-left: 39rem;
+            margin-top: -3rem;
+        }
+        .name{
+            margin-left: $remleft;
+        }
+        .input0{
+            border-color: #000;
+            margin-bottom: 0.3rem;
+        }
+        .email{
+            margin-left: $remleft;
+        }
+        .input1{
+            border-color: #000;
+            margin-left: 0.8rem;
+        }
+        .consulta{
+            margin-left: $remleft;
+        }
+        .input2{
+            margin-left: $remleft;
+        }
+        .enviar{
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 20px;
+            color: $white;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            background-color: #333;
+            border-color: #000;
+            border-width: 3px;
+            border-style: solid;
+            margin-left: $remleft;
+        }
+    }
+}
+
+.mapa{
+    position: relative;
+    top: -428px;
+    right: -620px; 
+}

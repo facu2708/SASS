@@ -1,13 +1,73 @@
-.mapa {
-  position: relative;
-  top: -428px;
-  right: -620px; }
-  .mapa .input0 {
-    margin-left: 0.2rem; }
-    .mapa .input0 .input1 {
-      margin-left: 1rem; }
+footer {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center; }
+  footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+  footer li {
+    display: inline-block;
+    margin: 0px;
+    width: 50px;
+    height: 50px;
+    text-align: center; }
+    footer li .facebook:hover {
+      background: #3b5999;
+      color: #fff; }
+    footer li .instagram:hover {
+      background: #e4405f;
+      color: #fff; }
+    footer li .linkedin:hover {
+      background: #0077b5;
+      color: #fff; }
+    footer li a {
+      display: block;
+      padding: 0 10px;
+      background: #333;
+      color: #fff;
+      line-height: 50px;
+      font-size: 18px;
+      box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.2);
+      transition: .2s; }
+      footer li a:hover {
+        transform: translateY(-3px) scale(1.05);
+        box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.4);
+        filter: none; }
 
-.enviar {
+.contenedor-contacto .formulario h2 {
+  margin-left: 0.3rem; }
+
+.contenedor-contacto .formulario .suConsulta {
+  margin-left: 0.3rem;
+  margin-top: 2rem; }
+
+.contenedor-contacto .formulario .ubicacion {
+  margin-left: 39rem;
+  margin-top: -3rem; }
+
+.contenedor-contacto .formulario .name {
+  margin-left: 0.3rem; }
+
+.contenedor-contacto .formulario .input0 {
+  border-color: #000;
+  margin-bottom: 0.3rem; }
+
+.contenedor-contacto .formulario .email {
+  margin-left: 0.3rem; }
+
+.contenedor-contacto .formulario .input1 {
+  border-color: #000;
+  margin-left: 0.8rem; }
+
+.contenedor-contacto .formulario .consulta {
+  margin-left: 0.3rem; }
+
+.contenedor-contacto .formulario .input2 {
+  margin-left: 0.3rem; }
+
+.contenedor-contacto .formulario .enviar {
   text-decoration: none;
   font-weight: 600;
   font-size: 20px;
@@ -16,49 +76,14 @@
   padding-bottom: 10px;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: #005eff;
-  border-color: #9dcdf6;
+  background-color: #333;
+  border-color: #000;
   border-width: 3px;
-  border-style: solid; }
+  border-style: solid;
+  margin-left: 0.3rem; }
 
-:root {
-  --facebook: #3b5999;
-  --instagram: #e4405f;
-  --linkedin: #0077b5; }
+.mapa {
+  position: relative;
+  top: -428px;
+  right: -620px; }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0; }
-  ul .footer {
-    display: flex;
-    margin-bottom: 10px;
-    align-items: center;
-    justify-content: center; }
-    ul .footer .footer ul li {
-      display: inline-block;
-      margin: 0 5px;
-      width: 50px;
-      height: 50px;
-      text-align: center; }
-      ul .footer .footer ul li .footer ul li a {
-        display: block;
-        padding: 0 10px;
-        background: #333;
-        color: #fff;
-        line-height: 50px;
-        font-size: 18px;
-        box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.2);
-        transition: .2s; }
-        ul .footer .footer ul li .footer ul li a .footer ul:hover a {
-          filter: blur(2px); }
-          ul .footer .footer ul li .footer ul li a .footer ul:hover a .footer ul li a:hover {
-            transform: translateY(-3px) scale(1.05);
-            box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.4);
-            filter: none; }
-            ul .footer .footer ul li .footer ul li a .footer ul:hover a .footer ul li a:hover .footer ul li .facebook:hover {
-              background: var(--facebook); }
-              ul .footer .footer ul li .footer ul li a .footer ul:hover a .footer ul li a:hover .footer ul li .facebook:hover .footer ul li .instagram:hover {
-                background: var(--instagram); }
-                ul .footer .footer ul li .footer ul li a .footer ul:hover a .footer ul li a:hover .footer ul li .facebook:hover .footer ul li .instagram:hover .footer ul li .linkedin:hover {
-                  background: var(--linkedin); }
